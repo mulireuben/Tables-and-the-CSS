@@ -1,0 +1,195 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family:serif;
+  font-size: medium;
+}
+.header{
+  padding: 10px 20px;
+  background-color: #f0ecec;
+}
+.input-with-select {
+  position: relative;
+  display: inline-block;
+}
+
+.input-with-select input,
+.input-with-select select {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 200px; /* Adjust width as needed */
+}
+
+.input-with-select select {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  padding: 5px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+.another-div {
+  position: relative;
+  display: inline-block;
+  margin-left: 20px; /*the spacing between the two*/
+}
+
+.another-div input,
+.another-div select {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 200px; /* Adjust width as needed */
+}
+
+.another-div select {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  padding: 10px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+.another-div3 {
+  position: absolute; /* Change position to relative */
+  display: inline-block;
+  margin-left: 20px; /* Adjust the value to set the desired space */
+  vertical-align: top; /* Align with the top of the second div */
+  height: 200%;
+  padding: 5px;
+  vertical-align: top;
+  width: 200px;
+}
+
+.container{
+  position: relative;
+}
+.patient-button{
+  position: absolute;
+  top:3px;
+  right: 80px;
+}
+table {
+  width: 100%;
+}
+
+th {
+  padding: 8px;
+  text-align: left;
+}
+/* 
+.main-row th:nth-child(1) {
+  width: 10%;
+}
+
+.main-row th:nth-child(2) {
+  width: 20%;
+}
+
+.main-row th:nth-child(3) {
+  width: 15%;
+}
+
+.main-row th:nth-child(4),
+.main-row th:nth-child(5) {
+  width: 20%;
+}
+
+.main-row th:nth-child(6),
+.main-row th:nth-child(7) {
+  width: 15.5%;
+} */
+.main-row{
+  padding: 10 px 20px;
+  background-color: #ccc;
+}
+.patient-table {
+  width: 100%;
+}
+
+.patient-table th,
+.patient-table td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.patient-table .main-row {
+  background-color: #f2f2f2; /* Optional: Add background color to header row */
+}
+
+.patient-table .table-row {
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+}
+
+/* Optional: Hover effect */
+.patient-table .table-row:hover {
+  background-color: #f9f9f9;
+}
+.patient-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.patient-table th,
+.patient-table td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.patient-table .main-row {
+  background-color: #f2f2f2; /* Optional: Add background color to header row */
+}
+
+.patient-table .table-row {
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+}
+.stato{
+  border: 1px solid green;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px 0;
+  background: #b6ea8f;
+  color: green;
+}
+.patient-button{
+  border:1px solid #17b9cf;
+  text-align: center;
+  border-radius:5px ;
+  background: #17b9cf;
+  width: 100px;
+  padding:5px 0;
+  color: white;
+  
+}
+.main-container{
+  box-sizing: border-box;
+  margin:0;
+  padding: 0;
+}
+.input-1 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding-top: 0.5%;
+  padding-left: 1.5%;
+  
+}
+.input-1 select{
+  width: fit-content;
+}
+
+.hear{
+
+}
