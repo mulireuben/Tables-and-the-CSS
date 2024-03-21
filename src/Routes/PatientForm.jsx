@@ -1,7 +1,8 @@
 import React from 'react'
 import { FaHeading } from 'react-icons/fa6'
 import Header from '../components/Header';
-import Body from"../components/Body";
+import Body from"./Body";
+
 
 function PatientForm() {
   return (

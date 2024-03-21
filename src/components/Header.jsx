@@ -12,4 +12,4 @@ const Header = ({heading}) => {
   )
 }
 
-export default Header
+export default Header;

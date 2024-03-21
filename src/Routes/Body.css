@@ -1,0 +1,183 @@
+.mainy-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.box {
+  justify-content: space-around;
+}
+.statu {
+  margin-bottom: 20px;
+  margin-top: 20;
+  width: 20%;
+}
+.statu label {
+  padding: 20;
+  display: flex;
+  flex-direction: column;
+}
+/* .thatone, */
+.initial,
+.more,
+.hobbies,
+.lastly {
+  margin: 5px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.statu,
+.thatone label,
+.initial label,
+/* .more label, */
+.hobbies label,
+.lastly label {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  /* margin: 10; */
+}
+/* .statu, */
+/* .thatone select, */
+.initial input[type='text'],
+.more input[type='number'],
+.more input[type='date'],
+.more input[type='text'],
+.hobbies input[type='text'],
+.lastly input[type='text'],
+select {
+  width: 100%;
+  display: flex;
+  padding: 7.5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+/* .thatone select,
+.hobbies select {
+  margin-top: 5px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px; */
+
+.stem {
+  display: flex;
+  justify-content: flex-end;
+  background-color: lightgray;
+  border-radius: 5px;
+}
+.stem input::placeholder {
+  color: black;
+}
+/* .stem input[type='image'] {
+  width: calc(100% -10px);
+  padding: 40px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  height: 50px;
+}
+.stem input[type='image']::placeholder {
+  color: cadetblue; */
+
+.portion1,
+.portion2 {
+  display: flex;
+  flex-direction: row;
+}
+.combi {
+  display: flex;
+  flex-direction: column;
+}
+.combi,
+.stem {
+  display: flex;
+  flex-direction: row;
+}
+.controls {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.thatone {
+  display: flex;
+  flex-direction: row;
+}
+.thatone,
+.input {
+  display: flex;
+  flex-direction: row;
+}
+
+.box {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+.more {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 20px;
+}
+.portion1,
+.portion2,
+.initial,
+.thatone,
+.hobbies,
+.lastly {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.portion1 label,
+.portion2 label,
+.initial label,
+.thatone label,
+.hobbies label,
+.lastly label {
+  flex: 1;
+}
+.top {
+  display: flex;
+}
+.name-div {
+  display: flex;
+  gap: 20px;
+  flex: 1;
+}
+
+.name-div > div,
+.name-div > input {
+  flex: 1;
+}
+.name-div select,
+.name-div > div > input,
+.name-div input {
+  border: 1px solid #ccc !important;
+  padding: 10px;
+}
+.combi-2 {
+  flex: 1;
+}
+.clicks {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.clearing {
+  background-color: blue;
+  color: white;
+}
+.exiting {
+  background-color: blue;
+  color: white;
+}
+.top {
+  display: flex;
+}
+.sir {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
